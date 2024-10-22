@@ -1,7 +1,5 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
 import sklearn
 
 data = pd.read_csv(r'diabetes_prediction_dataset.csv')
@@ -25,8 +23,6 @@ model.fit(X_train, Y_train)
 import streamlit as st
 import pandas as pd
 import numpy as np
-import pickle
-
 
 # Title of the app
 st.title("Diabetes Prediction App")
